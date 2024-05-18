@@ -1,5 +1,6 @@
 const mongoose=require("mongoose")
-const { isEmail, trim } = require("validator")
+const { isEmail} = require("validator");
+const bcrypt=require("bcrypt");
 
 const loginSchema=mongoose.Schema({
     email:{

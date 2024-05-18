@@ -1,5 +1,5 @@
 const mongoose=require("mongoose");
-const { trim, isMobilePhone } = require("validator");
+const {isMobilePhone } = require("validator");
 
 const userSchema=mongoose.Schema({
     first_name:{
